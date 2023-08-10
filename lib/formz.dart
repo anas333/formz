@@ -37,6 +37,8 @@ extension FormzSubmissionStatusX on FormzSubmissionStatus {
   /// Indicates whether the form submission has been canceled.
   bool get isCanceled => this == FormzSubmissionStatus.canceled;
 
+  bool get isPhoneVerfy => this == FormzSubmissionStatus.phoneVerfy;
+
   /// Indicates whether the form is either in progress or has been submitted
   /// successfully.
   ///
