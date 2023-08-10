@@ -5,6 +5,8 @@ enum FormzSubmissionStatus {
   /// The form has not yet been submitted.
   initial,
 
+  phoneVerfy,
+
   /// The form is in the process of being submitted.
   inProgress,
 
